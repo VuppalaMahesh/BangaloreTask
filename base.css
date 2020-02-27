@@ -1,0 +1,267 @@
+.navigation-class{
+    margin-bottom: 10px;
+}
+body {
+    font-family: sans-serif;
+    
+}
+.card{
+    border: none;
+    max-width: 600px;
+}
+.card-body{
+    padding:3.25rem;
+}
+.tab-pane-home{
+    padding: 20px 20px 20px 0px;
+}
+.checked {
+    color: orange;
+  }
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; 
+  }
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+   .flip-card-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+    
+  }
+  .flip-card-back p{
+    padding-top: 20%;
+  }
+  .flipping-cards{
+      margin-top: 5%;
+  }
+  .table{
+    margin-top: 2%;
+    margin-bottom: 1%;
+  }
+  .charts-table h3{
+    padding-top: 5%;
+  }
+  .charts-table .table{
+    padding: 5%;
+  }
+  .hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } 
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 40%; 
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd;
+    margin-bottom: 12px; 
+  }
+  
+  #myTable {
+    border-collapse: collapse;
+    width: 70%; 
+    border: 1px solid #ddd;
+    font-size: 18px; 
+  }
+  
+  #myTable th, #myTable td {
+    text-align: left; 
+    padding: 12px; 
+  }
+  
+  #myTable tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myTable tr.header, #myTable tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+  * {box-sizing:border-box}
+
+
+.bar-container {
+  width: 70%; 
+  background-color: #ddd; 
+
+}
+
+.skills {
+  text-align: right; 
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  color: white;
+}
+
+.html {width: 90%; background-color: #4CAF50;} 
+.css {width: 70%; background-color: #2196F3;}
+.js {width: 45%; background-color: #f44336;} 
+.php {width: 30%; background-color: #808080;}
+
+.skills-bar{
+  margin-top: 5%;
+}
+
+
+.footer {
+	color: white;
+	padding-top: 44px;
+	background-color: rgb(243, 243, 243);
+}
+
+.footer a {
+	color: rgb(138, 138, 138);
+}
+
+.footer a:hover {
+	color: #fb875c
+}
+
+.footer .menu-items a {
+	padding-bottom: 15px;
+}
+
+.appstore_soon_image_wrapper {
+	max-width: 140px;
+	max-height: 50px;
+}
+
+.appstore_soon_image_wrapper img {
+	width: 100%;
+	height: 50px;
+	object-fit: contain;
+}
+
+.footer_img {
+	width: 155px;
+	height: 45px;
+}
+
+.back_to_top a {
+	color: #ff8b5a;
+}
+
+.copyrights_wrapper {
+	border-top: 1px solid #666;
+}
+
+.p_copyright {
+	color: #C0C0C0;
+}
+
+ul.social-network {
+	list-style: none;
+	display: inline;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+ul.social-network li {
+	display: inline;
+	
+}
+
+.social-circle li a {
+	display: inline-block;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	font-size: inherit;
+	background-color: transparent;
+}
+
+.social-circle li i {
+	margin: 0;
+	
+	line-height: 25px;
+	text-align: center;
+	color: #C0C0C0;
+}
+
+
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoInstagram:hover i {
+	color: #ff8b5a;
+}
+
+.social-network a:hover {
+	border-color: #ff8b5a;
+}
+
+@media only screen and (min-width: 768px) {
+	.appstore_1 {
+		display: block;
+	}
+	.appstore_2 {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.appstore_1 {
+		display: none;
+	}
+	.appstore_2 {
+		display: block;
+	}
+}
+.top-company-users{
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.top-company-users .top-user{
+  margin-top: 3%;
+}
+.top-user a{
+  color: #0366d6;
+  font-size: 150%;
+}
+.top-users hr{
+  border: 2px light black;
+}
+.row input{
+  margin-left: 10%;
+}
